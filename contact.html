@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacter-nous</title>
+    <meta name="description" content="Page permettant de nous contacter pour louer ou acheter nos développeurs pour une courte ou longue durée.">
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header_contact">
+        <div class="container-fluid fixed-top">
+            <div class="row">
+                <div class="col-6 offset-6">
+                    <nav id="navbtn">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item bg-primary">
+                                <a class="nav-link text-light" href="./index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item bg-light">
+                                <a class="nav-link text-dark" href="./team.html">Equipe</a>
+                            </li>
+                            <li class="nav-item bg-danger">
+                                <a class="nav-link text-light" href="./catalogue.html">Produits</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col pl-5">
+                <img src="./Assets/Accueil/header-nav/logo.png" width="100" alt="logo du site">
+            </div>
+        </div>
+        <div class="jumbotron bg-transparent titre">
+            <p class="display-1 text-center text-primary text-uppercase ">adopte</p>
+            <p class="display-2 text-center text-light text-uppercase ">un</p>
+            <p class="display-1 text-center text-danger text-uppercase tiitre">developpeur</p>
+            <p class="display-4 text-center text-light text-uppercase">Valence et ses</p>
+            <p class="display-4 text-center text-light text-uppercase">alentours</p>
+            <p class="text-center">
+                <button class="btn btn-primary"><a href="./contact.html" alt="Page contact" class="text-light">Nous Contacter</a></button>
+            </p>
+        </div>
+    </header>
+
+    <main class="container bg-primary text-light">
+        <section class="row">
+            <div class="col">
+                <h2 class="display-2">Contactez-nous</h2>
+                <form action="https://httpbin.org/post" method="post" target="_blank">
+                    <div class="form-group">
+                        <label for="contact-name">Votre Nom</label>
+                        <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="Tapez-ici votre nom et prénom..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-mail">Votre adresse mail</label>
+                        <input type="email" class="form-control" id="contact-mail" name="contact-mail" placeholder="Tapez-ici votre adresse mail..." required>
+                    </div>
+                    <div class="form-group">
+                        <h3 class="display-3">Vous êtes</h3>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="contact-type" id="contact-type-1" value="particulier" focus>
+                            <label class="form-check-label" for="contact-type-1">
+                                Particulier
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="contact-type" id="contact-type-2" value="professionnel">
+                            <label class="form-check-label" for="contact-type-2">
+                                Profesionnel
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="contact-type" id="contact-type-3" value="autres">
+                            <label class="form-check-label" for="contact-type-3">
+                                Autres
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="object-message">Objet du message</label>
+                        <select class="form-control" id="object-message">
+                            <option>Devis</option>
+                            <option>Question</option>
+                            <option>SAV</option>
+                            <option>Autres</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-content">Votre message</label>
+                        <textarea class="form-control" id="message-content" name="message-content" rows="3" placeholder="Tapez-ici votre message..."></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-success">Envoyer le formulaire</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="row mt-4 align-items-center justify-content-around pt-5" id="footer">
+            <div class="col-4 text-light text-shadow text-right">
+                <a class="text-light" href="./mentions"><p class="pl-5 pb-5 pt-5">Mentions légales</p>
+                <a class="text-light" href="./contact.html"><p class="pl-5">Signaler un problème</p></a>
+            </div>
+            <div class="col-4 text-light text-shadow text-left">
+                <p class="pl-5 pt-5">04.75.42.42.42</p>
+                <a class="text-light" href="mailto:lesitedebogoss@bg.com"><p class="pl-5">lesitedébogoss@bg.com</p></a>
+                <span class="pl-5"><a href="https://facebook.com"><img src="./Assets/Accueil/Footer/fb.png" alt="fb"></a>
+                      <a href="https://instagram.com"><img class="pl-2" src="./Assets/Accueil/footer/insta.png" alt="insta"></a>
+                      <a href="mailto:lesitedebogoss@bg.com"><img class="pl-2"src="./Assets/Accueil/Footer/mail.png" alt="mail"></a>
+                      <a href="https://twitter.comm"><img class="pl-2"src="./Assets/Accueil/Footer/twitter.png" alt="twitter"></a>
+                </span>
+            </div>
+            <div class="col-12 text-light text-center pt-5 mt-5">
+                <a class="text-light" href="https://www.gouvernement.fr/donnees-personnelles-et-cookies"><p>Ce site internet utilise des cookies, en continuant vous acceptez la politique de confidentialité</p></a>
+            </div>
+        </section>
+    </footer>
