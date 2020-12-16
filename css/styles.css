@@ -1,0 +1,78 @@
+@font-face {
+  font-family: barlow;
+  src: url("../Assets/font/Barlow/BarlowCondensed-Light.ttf");
+}
+@font-face {
+  font-family: roboto;
+  src: url("../Assets/font/Roboto/Roboto-Regular.ttf");
+}
+body, p {
+  font-family: barlow;
+}
+.titre {
+  text-shadow: 4px 4px 4px black;
+}
+.text-shadow {
+  text-shadow: 1px 1px 1px black;
+}
+#navbtn {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 2em;
+  }
+header {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header_accueil,.header_contact {
+  background-image: url("../Assets/Accueil/header-nav/picjumbo_1.png");
+}
+#dynamisme{
+    background-image: url("../Assets/Accueil/h2-1/Informaticien-1.png");
+}
+#langages{
+    background-image: url("../Assets/Accueil/h2-2/5e7e3edfb3_50149494_developpeur_web_2.png");
+}
+#a_propos {
+  background-image: url("../Assets/A propos/Header/meet-the-team-title-background-v2 1.png");
+}
+#decouvrez{
+    background-image: url("../Assets/Accueil/h2-3/chase-chappell-A22zto3GRF4-unsplash\ 2.png");
+}
+#footer{
+  background-image: url("../Assets/Accueil/Footer/Header_et_footer.png");
+  height: 50vh;
+}
+#entreprises{
+  background-image:url("../Assets/catalogue/entreprise.png");
+}
+#particuliers{
+  background-image: url("../Assets/catalogue/particuliers.jpg");
+}
+#footer p{
+  font-size: 2em;
+}
+section{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.text-decoration-underline {
+  text-decoration: underline;
+}
+.blanc-50 {
+  background-color: rgba(255,255,255, 0.5);
+  border-radius: 0 100px 50px 0;
+}
+.header_img_catalogue{
+  background-image: url("../Assets/Accueil/h2-3/chase-chappell-A22zto3GRF4-unsplash 2.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text_catalogue{
+  font-size: 1.8em;
+}
